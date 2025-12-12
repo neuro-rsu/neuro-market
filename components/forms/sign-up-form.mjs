@@ -1,6 +1,6 @@
 import { BaseElement, html, css, nothing } from '../../js/base-element.mjs';
 
-import {HOST} from "../../js/neuro-market/neuro-market-config.mjs";
+import {HOST, PORT} from "../../js/neuro-market/neuro-market-config.mjs";
 
 import { formStyles } from './form-css.mjs'
 

@@ -18,7 +18,7 @@ body {
     --footer-color: white;
     --ubuntu-font-family: Ubuntu, sans-serif;
     --open-font-family: 'Open Sans', sans-serif;
-    --background-green: #6001d2;
+    --background-green: #286cff;
     --header-background-color: #021418;
     --gradient-background-color: #ff0000;
     --footer-background-color: #121026;
@@ -27,12 +27,13 @@ body {
     --button-hover-color: #129da2;
     --exo-2-font-family: 'Exo 2', sans-serif;
     --checkbox-accent-color: var(--background-green);
+    --active-form-button: var(--background-green);
     --link-hover-color: red;
     --link-active-color: red;
     --form-color: gray;
     --form-input-color: red;
-    --layout-background-color: rgba(255, 0, 255, 0.1);
+    --layout-background-color: rgba(255, 255, 255, 0.1);
     --table-group-background-color: red;
-    --list-icon-button-selected: rgba(255, 0, 0, 0.9);
+    --list-icon-button-selected: rgba(28, 108, 255, 0.9);
     --list-icon-button-hover: rgba(255, 255, 255, 0.1);
 }

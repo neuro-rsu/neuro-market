@@ -19,7 +19,7 @@ import '../auth/vk-auth.mjs';
 
 import lang from '../../js/neuro-market/neuro-market-dictionary.mjs'
 
-import {HOST} from "../../js/neuro-market/neuro-market-config.mjs";
+import {HOST, PORT, GOOGLE_CLIENT_ID} from "../../js/neuro-market/neuro-market-config.mjs";
 
 import refreshToken, {getToken, saveAccessToken, saveExitToken} from "../../js/neuro-market/refresh-token.mjs";
 
@@ -269,7 +269,7 @@ customElements.define("sign-in-form", class SignInForm extends BaseElement {
 
     createGoogleButton() {
         google.accounts.id.initialize({
-            client_id: '152529125992-h422kajfg36g0e9gptsu7auv090okqlv.apps.googleusercontent.com',
+            client_id: GOOGLE_CLIENT_ID,
             callback: res => this.sendGoogleToken(res)
         });
         google.accounts.id.renderButton(

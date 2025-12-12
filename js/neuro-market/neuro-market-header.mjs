@@ -1,6 +1,6 @@
 import { BaseElement, html, css } from '../base-element.mjs'
 
-import {HOST} from "./neuro-market-config.mjs";
+import {HOST, PORT} from "./neuro-market-config.mjs";
 
 import '../../components/buttons/toggle-button.mjs';
 

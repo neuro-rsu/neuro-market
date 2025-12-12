@@ -1,4 +1,4 @@
-import {HOST} from "./neuro-market-config.mjs";
+import {HOST, PORT} from "./neuro-market-config.mjs";
 
 export default async function refreshToken(token) {
     const exitToken = getExitToken()

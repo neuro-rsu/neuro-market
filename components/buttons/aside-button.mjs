@@ -23,12 +23,13 @@ customElements.define('aside-button', class AsideButton extends BaseElement {
                 user-select: none;
             }
             :host([active]) {
-                color: red;
+                color: var(--active-form-button);
             }
 
             :host([active]) .btn:hover {
                 filter: brightness(120%);
             }
+            
             :host([active]) .btn:active {
                 filter: brightness(80%);
             }

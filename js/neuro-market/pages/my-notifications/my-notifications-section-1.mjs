@@ -8,7 +8,7 @@ import '../../../../components/notifications/my-notification.mjs'
 
 import lang from '../../neuro-market-dictionary.mjs'
 
-import {HOST} from "../../neuro-market-config.mjs";
+import {HOST, PORT} from "../../neuro-market-config.mjs";
 
 class MyNotificationsSection1 extends BaseElement {
         static get properties() {

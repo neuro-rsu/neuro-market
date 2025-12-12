@@ -1,6 +1,6 @@
 import refreshToken, {getToken} from "../../js/neuro-market/refresh-token.mjs";
 
-import {HOST} from "../../js/neuro-market/neuro-market-config.mjs";
+import {HOST, PORT} from "../../js/neuro-market/neuro-market-config.mjs";
 
 export default class DataSet {
     static #dataSet;

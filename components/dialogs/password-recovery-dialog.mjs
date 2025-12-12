@@ -6,7 +6,7 @@ import '../buttons/close-button.mjs';
 
 import lang from '../../js/neuro-market/neuro-market-dictionary.mjs'
 
-import {HOST} from "../../js/neuro-market/neuro-market-config.mjs";
+import {HOST, PORT} from "../../js/neuro-market/neuro-market-config.mjs";
 
 customElements.define('password-recovery-dialog', class PasswordRecoveryDialog extends BaseElement {
     static get properties() {

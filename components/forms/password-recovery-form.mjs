@@ -6,7 +6,7 @@ import refreshToken, {getToken} from "../../js/neuro-market/refresh-token.mjs";
 
 import '../dialogs/modal-dialog.mjs';
 
-import {HOST} from "../../js/neuro-market/neuro-market-config.mjs";
+import {HOST, PORT} from "../../js/neuro-market/neuro-market-config.mjs";
 
 import '../inputs/simple-input.mjs';
 import '../inputs/email-input.mjs';
