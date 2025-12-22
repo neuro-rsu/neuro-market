@@ -48,7 +48,7 @@ customElements.define("checkbox-input", class CheckboxInput extends BaseElement 
                 }
                 input:checked {
                     border-width: 8px;
-                    outline: -webkit-focus-ring-color auto 1px;
+                    outline: red auto 1px;
                 }
             `
         ]

@@ -29,7 +29,7 @@ customElements.define('aside-button', class AsideButton extends BaseElement {
             :host([active]) .btn:hover {
                 filter: brightness(120%);
             }
-            
+
             :host([active]) .btn:active {
                 filter: brightness(80%);
             }
@@ -39,7 +39,7 @@ customElements.define('aside-button', class AsideButton extends BaseElement {
                 align-items: center;
                 cursor: pointer;
                 &:hover {
-                    color: red;
+                    color: var(--active-form-button);
                 }
                 &:active {
                     filter: brightness(80%);
