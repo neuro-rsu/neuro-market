@@ -98,7 +98,7 @@ class PasswordRecoveryForm extends BaseElement {
                     `
                 : ''}
             </simple-input>
-            <password-input id="password" sign-up="true" placeholder="${lang`Password`}" icon-name="lock" visible-icon="eye-slash-regular" invisible-icon="eye-regular"  @generate=${this.generatePassword} @keydown=${this.passwordKeyDown} @input=${this.passwordInput} @blur=${this.passwordValidation}>
+            <password-input id="password" sign-up="true" placeholder="${lang`New password`}" icon-name="lock" visible-icon="eye-slash-regular" invisible-icon="eye-regular"  @generate=${this.generatePassword} @keydown=${this.passwordKeyDown} @input=${this.passwordInput} @blur=${this.passwordValidation}>
                 ${ this.isPasswordError || this.isPasswordMessage ?
                     html`
                         <simple-informer slot="informer" info-message=${this.passwordErrorMessage} error-message=${this.passwordInfoMessage} ></simple-informer>

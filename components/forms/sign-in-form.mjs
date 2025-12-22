@@ -104,8 +104,8 @@ customElements.define("sign-in-form", class SignInForm extends BaseElement {
                                 <div class="checkbox-remember">
                                     <label>
                                         ${lang`Remember me`}
-                                        <input type="checkbox" name="remember" @click=${this.rememberMe}>
                                     </label>
+                                    <input type="checkbox" name="remember" @click=${this.rememberMe}>
                                 </div>
                                 <link-button @click=${this.forgotClick}>${lang`Forgot password?`}</link-button>
                             </div>

@@ -11,6 +11,8 @@ import lang from '../../../neuro-market-dictionary.mjs';
 
 import { isAuth, States } from '../../../../utils.js'
 
+import { TELEGRAM_BOT_NAME } from '../../../neuro-market-config.mjs';
+
 import './my-profile-section-1-page-1.mjs'
 
 import DataSet from './my-profile-dataset.mjs'
@@ -404,11 +406,11 @@ class MyProfileSection1 extends BaseElement {
         const ulid = await DataSet.telegramToken()
         // window.open(`https://t.me/NeuroMarketBot?start=${token}`)
         // window.open(`https://t.me/system_polyathlon_bot?start=${token}`)
-        window.open(`https://t.me/PolyathlonCompetitionBot?start=${ulid}`)
+        window.open(`https://t.me/${TELEGRAM_BOT_NAME}?start=${ulid}`)
     }
 
     async telegramBot() {
-        window.open(`https://t.me/PolyathlonCompetitionBot`)
+        window.open(`https://t.me/${TELEGRAM_BOT_NAME}`)
     }
 
     // href="https://t.me/HTMLAcademyKeksobot?start=eyJib251c0lkIjoiYm9udXMxZGF5In0="

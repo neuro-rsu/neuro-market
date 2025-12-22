@@ -315,8 +315,9 @@ button.active:hover {
 }
 
 .checkbox-remember {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .checkbox-remember input[type=checkbox] {
@@ -326,13 +327,12 @@ button.active:hover {
 }
 
 .checkbox-remember label {
+    margin-top: -3px;
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: bold;
     white-space: nowrap;
 }
-
-
 
 /* Extra styles for the radioBox settings */
 .radio-boxes-settings {

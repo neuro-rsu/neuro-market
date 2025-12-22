@@ -69,7 +69,7 @@ class MyProfileSection1Page1 extends BaseElement {
         const verifyEmail = document.createElement('verify-email-form');
         this.renderRoot.append(verifyEmail)
         const modalResult = await verifyEmail.open()
-        if (modalResult != 'Error') {
+        if (modalResult != 'Error' && modalResult != 'CANCEL') {
             this.item.emailVerified = true
             this.item._rev = modalResult.rev
             this.requestUpdate()

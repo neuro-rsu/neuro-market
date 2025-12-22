@@ -71,7 +71,7 @@ class VerifyEmailForm extends BaseElement {
                 <form class="form animate" method="post">
                     <div class="form-header">
                         <div class="form-tabs no-select">
-                            <div class="form-tab" selected data-label="Verify Email">${lang`Verify Email`}</div>
+                            <div class="form-tab" selected data-label="Email verification">${lang`Email verification`}</div>
                         </div>
                         <close-button class="close-button no-select" name="times" @click=${()=>this.close('CANCEL')}></close-button>
                     </div>
